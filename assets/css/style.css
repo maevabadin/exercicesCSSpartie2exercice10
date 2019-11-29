@@ -1,0 +1,31 @@
+/*
+si je fais @media dans mon CSS, je ne le fais pas dans mon html
+@media est une règle CSS que j'applique aux écrans de mon choix
+Je choisis tous les écrans donc j'écris all
+Et j'applique ma règle à la taille maximale (max-width)
+En dessous de cette taille que j'ai définit, ma règle s'applique à mon image (img)
+display = afficher
+none = aucun
+Si mon écran d'affiche est inférieur à 480px de largeur (width)
+Alors j'applique aucun affichage à mon image
+ */
+/* @media all and (max-width: 480px) {
+  img{
+    display: none;
+  }
+} */
+@media screen and (max-width: 1280px) {
+  img{
+    width: 75%;
+  }
+}
+@media screen and (max-width: 920px) {
+  img{
+    width: 50%;
+  }
+}
+@media screen and (max-width:680px) {
+  img{
+    width: 25%;
+  }
+}
